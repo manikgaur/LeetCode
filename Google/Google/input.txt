@@ -1,0 +1,5 @@
+DE439598 : 20093616 - IBM UIM ACL handling RCE and Probe DoS vulnerabilities
+DE438598 : 20101721 - UIM nimbuscontroller RCE vulnerability
+DE446059 : 20283338 - Hub 9.20HF6 memory leak with robot 9.20HF7; eventually stops snmpcollector QOS collection
+DE441542 : 20111208,20219379 - Atualização de Robô - Alto consumo de memória Hub
+DE438301: 20100511 - passive robot (controller) generates illegal SID error

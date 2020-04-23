@@ -1,0 +1,8 @@
+["MyCircularQueue","enQueue","isFull","enQueue","enQueue","isFull","enQueue","enQueue","enQueue","Front","Front","Rear","enQueue","Rear","enQueue","Rear","Front","enQueue","enQueue","Front","enQueue","enQueue","Rear","enQueue","isEmpty","Rear","Front","Rear","enQueue","Front","enQueue","Rear","isEmpty","Rear","enQueue","Front","Front","deQueue","enQueue","Front","enQueue","enQueue","deQueue","enQueue","isFull","Front","enQueue","deQueue","enQueue","isEmpty","isEmpty","enQueue","Front","Front","Rear","deQueue","Front","enQueue","Rear","enQueue","Rear","Rear","Front","deQueue","enQueue","deQueue","Rear","enQueue","Front","enQueue","enQueue","deQueue","enQueue","Front","enQueue","deQueue","enQueue","Front","Front","enQueue","enQueue","enQueue","Front","enQueue","enQueue","Rear","deQueue","enQueue","Front","enQueue","enQueue","Rear","enQueue","enQueue","Rear","isFull","enQueue","Rear","enQueue","deQueue","Rear","enQueue"]
+[[30],[71],[],[32],[1],[],[32],[8],[6],[],[],[],[8],[],[3],[],[],[56],[41],[],[14],[6],[],[25],[],[],[],[],[44],[],[84],[],[],[],[59],[],[],[],[4],[],[40],[11],[],[94],[],[],[72],[],[19],[],[],[20],[],[],[],[],[],[58],[],[54],[],[],[],[],[65],[],[],[59],[],[26],[10],[],[14],[],[2],[],[37],[],[],[46],[63],[42],[],[84],[30],[],[],[49],[],[79],[46],[],[97],[83],[],[],[76],[],[79],[],[],[44]]
+["MyCircularQueue","enQueue","enQueue","enQueue","enQueue","Rear","isFull","deQueue","enQueue","Rear"]
+[[3],[1],[2],[3],[4],[],[],[],[4],[]]
+["MyCircularQueue","enQueue","Rear","enQueue","deQueue","Front","deQueue","deQueue","isEmpty","deQueue","enQueue","enQueue"]
+[[2],[4],[],[9],[],[],[],[],[],[],[6],[4]]
+["MyCircularQueue","isEmpty","isFull","enQueue","Rear","Front","isEmpty","isFull","deQueue","Rear","Front","isEmpty","isFull"]
+[[0],[4]]

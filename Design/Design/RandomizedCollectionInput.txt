@@ -1,0 +1,6 @@
+["RandomizedCollection","insert","insert","insert","insert","insert","insert","remove","remove","remove","remove","getRandom","getRandom","getRandom","getRandom","getRandom","getRandom","getRandom","getRandom","getRandom","getRandom"]
+[[],[10],[10],[20],[20],[30],[30],[10],[10],[30],[30],[],[],[],[],[],[],[],[],[],[]]
+["RandomizedCollection","insert","remove","insert"]
+[[],[1],[1],[1]]
+["RandomizedCollection","insert","insert","insert","getRandom","remove","getRandom"]
+[[],[1],[1],[2],[],[1],[]]

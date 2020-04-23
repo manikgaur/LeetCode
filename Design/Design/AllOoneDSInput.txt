@@ -1,0 +1,7 @@
+["AllOne","inc","inc","inc","inc","getMaxKey","inc","inc","inc","dec","inc","inc","inc","getMaxKey"]
+[[],["hello"],["goodbye"],["hello"],["hello"],[],["leet"],["code"],["leet"],["hello"],["leet"],["code"],["code"],[]]
+["AllOne","Inc","Inc","Dec","Dec","getMaxKey","getMinKey"]
+[[],["hello"],["hello"],["hello"],["hello"],[],[]]
+
+["AllOne","getMaxKey","getMinKey"]
+[[],[],[]]

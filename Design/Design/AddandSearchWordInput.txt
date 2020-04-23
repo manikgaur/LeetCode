@@ -1,0 +1,6 @@
+["WordDictionary","addWord","addWord","addWord","search","search","search","search"]
+[[],["bad"],["dad"],["mad"],["pad"],["bad"],[".ad"],["b.."]]
+["WordDictionary","addWord","addWord","search","search","search","search","search","search"]
+[[],["a"],["a"],["."],["a"],["aa"],["a"],[".a"],["a."]]
+["WordDictionary","addWord","search"]
+[[],["a"],["."]]

@@ -1,0 +1,11 @@
+["ValidWordAbbr","isUnique","isUnique"]
+[[["a","a"]]
+["a"],["b"]]
+
+["ValidWordAbbr","isUnique","isUnique","isUnique","isUnique","isUnique"]
+[[["deer","door","cake","card", "dog"]]
+["deer"],["carrt"],["cane"],["make"],["d"]]
+
+["ValidWordAbbr","isUnique","isUnique","isUnique","isUnique"]
+[[["deer","door","cake","card"]]
+["dear"],["cart"],["cane"],["make"]]

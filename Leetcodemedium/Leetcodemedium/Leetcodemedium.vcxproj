@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{937C748C-AD1D-4D1E-8900-E38B92E6DD51}</ProjectGuid>
+    <RootNamespace>Leetcodemedium</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AllInOneMedium.cpp" />
+    <ClCompile Include="BestTimeBuySellStock.cpp" />
+    <ClCompile Include="BTFromInPre.cpp" />
+    <ClCompile Include="BTFromPrePost.cpp" />
+    <ClCompile Include="CountLessAfterSelf.cpp" />
+    <ClCompile Include="DeepestLeavesSumSolution.cpp" />
+    <ClCompile Include="DivisorGame.cpp" />
+    <ClCompile Include="Game24.cpp" />
+    <ClCompile Include="GroupThePeople.cpp" />
+    <ClCompile Include="KClosestToOrigin.cpp" />
+    <ClCompile Include="KSmallestPairDistance.cpp" />
+    <ClCompile Include="LastStoneWeight.cpp" />
+    <ClCompile Include="LongestChunkedPalindrome.cpp" />
+    <ClCompile Include="LongestStringChain.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MatrixBlockSum.cpp" />
+    <ClCompile Include="MaximalSquare.cpp" />
+    <ClCompile Include="MaxIncreaseSkyLine.cpp" />
+    <ClCompile Include="MaxSumRectangleNoLarger.cpp" />
+    <ClCompile Include="MinCostMergeStones.cpp" />
+    <ClCompile Include="MinDistanceWordWithTwoFingers.cpp" />
+    <ClCompile Include="MinDominoRotation.cpp" />
+    <ClCompile Include="MinFallingPathSum.cpp" />
+    <ClCompile Include="MinimumAreaRectangle.cpp" />
+    <ClCompile Include="MinimumCostTreeFromLeafValues.cpp" />
+    <ClCompile Include="MinWindowSubstring.cpp" />
+    <ClCompile Include="PalindromePartitioning3.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="PathSum.cpp" />
+    <ClCompile Include="Solution.cpp" />
+    <ClCompile Include="SplitArrayLargestSum.cpp" />
+    <ClCompile Include="StoneGame.cpp" />
+    <ClCompile Include="StudentAttendanceRecord.cpp" />
+    <ClCompile Include="SumEvenGrandParents.cpp" />
+    <ClCompile Include="SwimInWater.cpp" />
+    <ClCompile Include="TextJustification.cpp" />
+    <ClCompile Include="TwoKeysKeyboard.cpp" />
+    <ClCompile Include="WordLadderII.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AllInOneMedium.h" />
+    <ClInclude Include="BestTimeBuySellStock.h" />
+    <ClInclude Include="BTFromInPre.h" />
+    <ClInclude Include="BTFromPrePost.h" />
+    <ClInclude Include="CountLessAfterSelf.h" />
+    <ClInclude Include="DeepestLeavesSumSolution.h" />
+    <ClInclude Include="DivisorGame.h" />
+    <ClInclude Include="Game24.h" />
+    <ClInclude Include="GroupThePeople.h" />
+    <ClInclude Include="KClosestToOrigin.h" />
+    <ClInclude Include="KSmallestPairDistance.h" />
+    <ClInclude Include="LastStoneWeight.h" />
+    <ClInclude Include="LongestChunkedPalindrome.h" />
+    <ClInclude Include="LongestStringChain.h" />
+    <ClInclude Include="MatrixBlockSum.h" />
+    <ClInclude Include="MaxHeap.h" />
+    <ClInclude Include="MaximalSquare.h" />
+    <ClInclude Include="MaxIncreaseSkyLine.h" />
+    <ClInclude Include="MaxSumRectangleNoLarger.h" />
+    <ClInclude Include="MinCostMergeStones.h" />
+    <ClInclude Include="MinDistanceWordWithTwoFingers.h" />
+    <ClInclude Include="MinDominoRotation.h" />
+    <ClInclude Include="MinFallingPathSum.h" />
+    <ClInclude Include="MinHeap.h" />
+    <ClInclude Include="MinimumAreaRectangle.h" />
+    <ClInclude Include="MinimumCostTreeFromLeafValues.h" />
+    <ClInclude Include="MinWindowSubstring.h" />
+    <ClInclude Include="PalindromePartitioning3.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="PathSum.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Solution.h" />
+    <ClInclude Include="SplitArrayLargestSum.h" />
+    <ClInclude Include="StoneGame.h" />
+    <ClInclude Include="StudentAttendanceRecord.h" />
+    <ClInclude Include="SumEvenGrandParents.h" />
+    <ClInclude Include="SwimInWater.h" />
+    <ClInclude Include="TextJustification.h" />
+    <ClInclude Include="TwoKeysKeyboard.h" />
+    <ClInclude Include="WordLadderII.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Leetcodemedium.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="AllInOneMediumInput.txt" />
+    <Text Include="BestTimeBuySellStockInput.txt" />
+    <Text Include="BTFromInPreInput.txt" />
+    <Text Include="BTFromPrePostInput.txt" />
+    <Text Include="countLessAfterSelfInput.txt" />
+    <Text Include="deepestleavesInput.txt" />
+    <Text Include="DivisorGameInput.txt" />
+    <Text Include="game24Input.txt" />
+    <Text Include="groupThePeople.txt" />
+    <Text Include="inputsumEventGrandparent.txt" />
+    <Text Include="KClosestToOriginInput.txt" />
+    <Text Include="KSmallestPairDistanceInput.txt" />
+    <Text Include="LastStoneWeightInput.txt" />
+    <Text Include="LongestChunkedPalindromeInput.txt" />
+    <Text Include="longestStringChainInput.txt" />
+    <Text Include="MatrixBlockSumInput.txt" />
+    <Text Include="maximalSquareInput.txt" />
+    <Text Include="maxIncreaseSkyLineInput.txt" />
+    <Text Include="MaxSumRectangleNoLargerInput.txt" />
+    <Text Include="MinCostMergeStonesInput.txt" />
+    <Text Include="MinDistanceWordWithTwoFingersInput.txt" />
+    <Text Include="minDominoRotationInput.txt" />
+    <Text Include="MinFallingPathSum.txt" />
+    <Text Include="MinimumAreaRectangleInput.txt" />
+    <Text Include="MinimumCostTreeFromLeafValuesInput.txt" />
+    <Text Include="minWindowSubstringInput.txt" />
+    <Text Include="PalindromePartitioning3Input.txt" />
+    <Text Include="PathSumInput.txt" />
+    <Text Include="splitArrayLargestSumInput.txt" />
+    <Text Include="StoneGameInput.txt" />
+    <Text Include="StudentAttendanceRecordInput.txt" />
+    <Text Include="SwimInWaterInput.txt" />
+    <Text Include="TextJustificationInput.txt" />
+    <Text Include="twoKeysKeyboardInput.txt" />
+    <Text Include="WordLadderIIInput.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
